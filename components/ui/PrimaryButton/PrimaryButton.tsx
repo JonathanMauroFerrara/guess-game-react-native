@@ -1,5 +1,6 @@
 import { PropsWithChildren } from 'react';
 import { Text, View, Pressable, StyleSheet } from 'react-native';
+import { Colors } from '../../../costants/colors';
 import { TButton } from './PrimaryButton.types';
 
 export function Primarybutton({
@@ -29,7 +30,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   textContainer: {
-    backgroundColor: '#f1c232',
+    backgroundColor: Colors.primary400,
     padding: 5,
     borderRadius: 15,
   },
